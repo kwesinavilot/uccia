@@ -29,6 +29,10 @@ Installation
 Please see the `installation section` of the application from the attached user manual
 of the UCCIA User Guide.
 
+But get-go important steps are as follows:
+    1. Open and edit the database.php file found in the webroot/config to suit server
+    2. Copy and paste entire SQL code found in uccia.sql found in assets/sql into MySQL terminal
+
 
 ***************
 Acknowledgement
