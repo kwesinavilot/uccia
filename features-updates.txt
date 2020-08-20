@@ -1,0 +1,25 @@
+##########################################################################################
+Application Name: Cheyn
+Project Stack: PHP, CodeIgniter, jQuery, MySQL
+Project Start: Saturday, ‎October ‎12, ‎2019, ‏‎2:56:08 AM
+Creator/Owner: Naviware Incorporation
+##########################################################################################
+
+WHAT IS CHEYN?
+Cheyn is a personal financial assistant that helps you record, track and analyse
+your personal finances. It employs the use of simple user interfaces and powerful
+behind-the-scenes, back-end implementations to record and analyse the finances of its
+users as entered.
+
+Cheyn generates periodic charts and illustrations to help its users further understand
+and manage their finances.
+
++++++++++++++++++++++++++++++++++++
+Configurations
++++++++++++++++++++++++++++++++++++
+* Email @ config/email.php
+
+***********************************
+Changelog and New Features
+***********************************
+-----v1.1.0-----

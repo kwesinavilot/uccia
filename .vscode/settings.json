@@ -1,0 +1,17 @@
+{
+    "database.connections": [
+        {
+            "type": "mysql",
+            "name": "navilot@localhost (MySql)",
+            "host": "localhost:3306",
+            "username": "navilot",
+            "database": "cheyn_main",
+            "password": "sltd"
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#213213",
+        "titleBar.activeBackground": "#2E471A",
+        "titleBar.activeForeground": "#F7FBF4"
+    }
+}

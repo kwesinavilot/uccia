@@ -1,0 +1,234 @@
+/* 
+ * CSS styling for home page (www.Cheyn.com)
+ * Written by Andrews Kwesi Ankomahene 
+ * For Cheyn.com | Naviware Inc.
+ * Copyright 2019 and beyond.
+ */
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    background-color: #084394;
+}
+ 
+ #anchor {
+    overflow: hidden;
+    padding: 0px 0px;
+}
+
+ /*STYLING FOR HEADER*/
+header {
+    background: transparent;
+}
+
+.left-header {
+  padding: 1% 40px;
+}
+
+.left-header h4 {
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.content {
+  padding: 0;
+  margin: 5% auto auto;
+}
+
+.center-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    background-color: #ffffff;
+  }
+  
+  .center-text h5 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 7em;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+  .center-text p {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  footer {
+    text-transform: uppercase;
+    color: black;
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: large;
+    padding-bottom: 2%;
+  }
+
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+} 
+
+
+.action-content {
+  position: absolute;
+  top: 0px;
+  left: 105%;
+  z-index: 100;
+  display: block;
+  padding: 20px;
+  margin: 0% 0%;
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+  list-style: none;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  -webkit-transition: all 0.30s ease 0s;
+  transition: all 0.30s ease 0s;
+  visibility: hidden;
+  height: 100vh;
+  max-width: 60%;
+  opacity: 1;
+  cursor: default;
+  border-radius: 0px;
+}
+
+.error {
+  text-align: center;
+  color: crimson;
+  font-weight: 700;
+  padding-bottom: 2%;
+}
+
+.lg_error {
+  text-align: left;
+  color: crimson;
+}
+
+.success {
+  text-align: center;
+  color: green;
+  font-weight: 700;
+}
+
+.content-inner {
+    padding: 30% 5%;
+}
+
+.content-header h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.content-inner a:hover, .down-liner a:hover 
+.content-inner a:active, .down-liner a:active {
+    color:#084394;
+}
+
+.content-header::after {
+  content: "";
+  display: block;
+  clear: both;
+  margin-bottom: 5%
+}
+
+.content-footer::before {
+  content: "";
+  display: block;
+  clear: both;
+  margin-top: 5%;
+}
+
+.form-elems {
+  width: 100%;
+  text-align: left;
+  text-indent: 10px;
+  line-height: 2;
+  font-size: medium;
+}
+
+.elem-container {
+  margin-bottom: 5%;
+}
+
+.form-elems:focus {
+  border: 2px #084394 solid;
+  outline: none;
+}
+
+.form-action {
+  background: #084394;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: none;
+  line-height: 2;
+  width: 100%;
+  font-size: large;
+  padding: 5px;
+  color: white;
+}
+
+.input {
+  font-weight: 400;
+  border-radius: 0;
+  height: 44px;
+  margin-bottom: 0;
+  border: 2px solid #bdc4c9;
+  font-size: 16px;
+  padding: 5px 6px;
+  width: 100%;
+  margin: 2px 0 5px;
+  min-height: 34px;
+  line-height: normal;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+.icon-visible:before {
+  content: "\e9ce";
+}
+
+.password-toggle {
+  position: absolute;
+  right: 35px;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 30px;
+  height: auto;
+  color: darkkhaki;
+  cursor: pointer;
+  top: 33%;
+}
+
+.form-content {
+  margin: 5% 14%;
+}
