@@ -63,7 +63,7 @@ CREATE TABLE exams (
     id INT PRIMARY KEY AUTO_INCREMENT,
     course_name VARCHAR(100) NOT NULL,
     course_code VARCHAR(7) NOT NULL UNIQUE,
-    class_short VARCHAR(13) NOT NULL UNIQUE,
+    class_short VARCHAR(13) NOT NULL,
     date date NOT NULL,
     start_time time NOT NULL,
     close_time time NOT NULL,

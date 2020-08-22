@@ -35,6 +35,7 @@
                                                     <th style="width: 20%">First Name</th>
                                                     <th style="width: 20%">Last Name</th>
                                                     <th style="width: 15%">Other Names</th>
+                                                    <th style="width: 20%">Index Number</th>
                                                     <th style="width: 5%">Actions</th>
                                                 </tr>
                                             </thead>
@@ -78,6 +79,7 @@
                                                                     <td>$student->firstname</td>
                                                                     <td>$student->lastname</td>
                                                                     <td>$student->other_names</td>
+                                                                    <td>$student->index_number</td>
                                                                     <td>
                                                                         <a href='$view'>
                                                                             <button data-toggle='tooltip' title='View' class='pd-setting-ed'>

@@ -200,9 +200,9 @@
             $this->db->limit($limit, $start);
 
             //Get all the classes in the system based on the limits
-            $this->db->select('studentID, picture, firstname, lastname, other_names');
+            $this->db->select('studentID, picture, firstname, lastname, other_names, index_number');
+            $this->db->order_by('index_number', 'ASC');
             $this->db->order_by('lastname', 'ASC');
-            //$this->db->order_by('department', 'ASC');
             $query = $this->db->get('students');
     
             //Put the data into an array and stripe off the junk info
